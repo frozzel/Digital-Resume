@@ -12,7 +12,7 @@
 
 }
 
-Body {
+body {
     background-color: white;
 
 }
@@ -24,9 +24,15 @@ header {
     display: flex;
     padding: 1%;
     align-items: center;
-
     
 }
+
+.profilepic {
+    position: fixed;
+    left: 15px;
+    height: 150px;
+}
+
 #headertittle {
     height: 50px;
     width: 350px;
@@ -51,10 +57,15 @@ ul li {
 
 }
 
+main {
+    /* display: flex; */
+    
+}
 #banner {
     background-image: url("../images/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction.jpg");;
     height: 150px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #bannersub {
@@ -71,4 +82,55 @@ ul li {
     left: 70%;
     
    
+}
+
+article {
+    display: flex;
+    
+}
+.leftside {
+    width: 200px;
+    height: inherit;
+    color: var(--drkbl);
+    font-size: 20px;
+    text-align: right;
+    /* border-right: 5px solid;
+    border-color: var(--drkbl); */
+    /* display: flex; */
+    flex-direction: row;
+    position: absolute;
+    margin-left: 0;
+}
+
+.bio {
+    display: flex;
+    margin-inline-start: 200px;
+    color: var(--drkbl);
+    margin-bottom: 25px;
+    border-left: 5px solid;
+    border-color: var(--drkbl);
+    padding: 1%;
+
+    
+}
+
+footer {
+    display: flex;
+}
+
+.footinfo {
+    font-size: 25px;
+    /* margin-right: 25px; */
+    /* display: inline-block; */
+    display: flex;
+    margin-inline-start: 200px;
+    color: var(--drkbl);
+    margin-bottom: 25px;
+    border-left: 5px solid;
+    border-color: var(--drkbl);
+    padding: 1%;
+    /* justify-content: center;
+    align-content: center; */
+    
+
 }
