@@ -1,0 +1,24 @@
+:root {
+    --drkbl: rgb(31, 31, 90);
+    --wht: rgb(188, 182, 182);
+
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+Body {
+    background-color: white;
+
+}
+
+header {
+    color: var(--wht);
+    background-color: var(--drkbl);
+    display: flex;
+    
+}
