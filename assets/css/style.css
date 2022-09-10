@@ -1,6 +1,7 @@
 :root {
-    --drkbl: rgb(31, 31, 90);
-    --wht: rgb(188, 182, 182);
+    --drkbl: rgb(51, 51, 119);
+    --baby: rgb(146, 209, 226);
+    --gry: rgb(75, 75, 75);
 
 }
 
@@ -17,8 +18,35 @@ Body {
 }
 
 header {
-    color: var(--wht);
-    background-color: var(--drkbl);
+    justify-content: space-between;
+    color: var(--baby);
+    background-color: var(--gry);
     display: flex;
+    padding: 1%;
+    align-items: center;
+
     
+}
+#headertittle {
+    height: 50px;
+    width: 350px;
+    color: var(--gry);
+    margin-left: -50px;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--baby);
+    text-align: right;
+}
+
+nav a {
+    font-size: 25px;
+    margin-right: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--baby);
+ 
+}
+ul li {
+    display: inline-block;
+
 }
