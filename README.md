@@ -29,7 +29,7 @@ Go to: https://github.com/frozzel/Digital-Resume
 Buid an online resume to display all of your credentials
 
 
-![Screen Shot of Site](assets/images/shot2.png)
+![Screen Shot of Site](assets/images/Shot2.png)
 
 
     
