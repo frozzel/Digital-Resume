@@ -68,15 +68,16 @@ nav ul li {
 #bannersub {
     color: var(--gry);
     background-color: var(--baby);
-    height: 40px;
-    width: 10em;
-    justify-content: center;
-    display: flex;
-    align-content: center;
+    height: fit-content;
+    width: fit-content;
     font-size: 30px;
-    position: absolute;
-    top: 20%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 60%;
     left: 60%;
+
+
     
    
 }
@@ -245,4 +246,25 @@ a {
 ul li {
     display: inline-block;
 
+}
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+        background-color: var(--baby);
+        display: flex;
+        height: 100px;
+        
+        
+    }
+    nav a {
+        flex-direction: row;
+        color: var(--gry);
+        display: inline-flex;
+        order: 2;
+        
+        
+    }
+    #banner {
+        display: none;
+    }
 }
