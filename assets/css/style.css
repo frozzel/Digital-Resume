@@ -107,6 +107,8 @@ nav ul li {
     padding: 1%;
     margin-right: 50px;
     flex-wrap: wrap;
+    background-repeat: no-repeat;
+    
 
     
 }
@@ -120,7 +122,7 @@ nav ul li {
     padding: 1%;
     margin-right: 30px;
     flex-wrap: wrap;
-    /* flex-direction: row; */
+    
     
 
 
@@ -135,6 +137,7 @@ nav ul li {
     flex: 1 0px;
     width: 100%;
     min-width: 300px;
+    background-repeat: no-repeat;
     
     
 
