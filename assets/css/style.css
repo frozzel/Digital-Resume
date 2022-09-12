@@ -84,20 +84,15 @@ main {
     
    
 }
-/* 
-article {
-    display: flex;
-    
-} */
+
+
 .leftside {
     width: 200px;
     height: inherit;
     color: var(--drkbl);
     font-size: px;
     text-align: right;
-    /* border-right: 5px solid;
-    border-color: var(--drkbl); */
-    /* display: flex; */
+
     flex-direction: row;
     position: absolute;
     margin-left: 0;
@@ -114,6 +109,7 @@ article {
     border-color: var(--drkbl);
     padding: 1%;
     margin-right: 50px;
+    flex-wrap: wrap;
 
     
 }
@@ -127,6 +123,8 @@ article {
     padding: 1%;
     margin-right: 30px;
     flex-wrap: wrap;
+    /* flex-direction: row; */
+    
 
 
 
@@ -140,6 +138,7 @@ article {
     flex: 1 0px;
     width: 100%;
     min-width: 300px;
+    
     
 
 
@@ -157,7 +156,82 @@ article {
     min-width: 300px;
     margin-bottom: 20px;
     
+
+    
 }
+
+.workboxtittle {
+    height: 60px;
+    width: 100px;
+    color: var(--gry);
+    display: inline-block;
+    background-color: var(--baby);
+    padding: 5px;
+    position: relative;
+    top: 50%;
+}
+
+h5 {
+    font-weight: lighter;
+}
+
+
+#site1 {
+    background: var(--gry);
+    opacity: .6;
+    text-decoration: none;
+    background-image: url(../images/Screen\ Shot\ 2022-09-11\ at\ 10.27.28\ PM.png)
+}
+#site1:hover {
+
+    opacity: 1;
+}
+
+#site2 {
+    background: var(--gry);
+    opacity: .6;
+    text-decoration: none;
+    background-image: url(../images/artificial-intelligence-g0ddcf44b7_1280.jpg)
+
+}
+#site2:hover {
+    opacity: 1;
+}
+
+#site3 {
+    background: var(--gry);
+    opacity: .6;
+    text-decoration: none;
+    background-image: url(../images/sea-gd80bede03_1280.jpg)
+
+}
+#site3:hover {
+    opacity: 1;
+}
+
+
+#site4 {
+    background: var(--gry);
+    opacity: .6;
+    text-decoration: none;
+    background-image: url(../images/technology-g9100600e6_1280.jpg)
+
+}
+#site4:hover {
+    opacity: 1;
+}
+
+#site5 {
+    background: var(--gry);
+    opacity: .6;
+    text-decoration: none;
+    background-image: url(../images/tree-ge280d4011_1280.jpg)
+
+}
+#site5:hover {
+    opacity: 1;
+}
+
 
 footer {
     display: flex;
@@ -181,9 +255,5 @@ footer {
 }
 ul li {
     display: inline-block;
-    
-    
-    /* width: 100%; */
-    
-    
+
 }
